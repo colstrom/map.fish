@@ -1,0 +1,10 @@
+#+TITLE: map.fish
+
+* Overview
+
+  ~map~ reads from =STDIN= and passes each line as arguments to =$argv=.
+
+  This is quite similar to ~xargs~, but is usable with =functions= and
+  =builtins=, where ~xargs~ expects =commands=. ~map~ works with =commands= as
+  well, but lacks the options =xargs= has. This may be deirable or not,
+  depending on your situation.
